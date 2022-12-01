@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browser" value="chrome"></parameter>
+    <test verbose="2" preserve-order="true" name="C:/Users/aabdelhalim/IdeaProjects/Pom_Design_Pattern/src/test">
+        <classes>
+            <class name="Tests.SearchTest">
+
+            <methods>
+                <include name="SearchSuccessfully"/>
+
+
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
